@@ -1,0 +1,3 @@
+- Create Redux Store
+- Connect to API
+- Redux Hook as useDispatch(), useSelector()

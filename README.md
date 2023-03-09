@@ -1,5 +1,7 @@
 - Create Reducer
+- mapStateToProps, mapDispatchToProps, ownProps
 - Create Redux Store
 - Connect to API
 - Redux Hook as useDispatch(), useSelector()
 - Redux combinedReducer
+- ownProps connected API

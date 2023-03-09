@@ -1,5 +1,6 @@
 import { Provider } from "react-redux";
 import "./App.css";
+import CommonCounter from "./components/CommonCounter";
 // import Counter from "./components/Counter";
 import CounterHooks from "./components/CounterHooks";
 import DynamicCounterHooks from "./components/DynamicCounterHooks";
@@ -17,6 +18,9 @@ export default function App() {
           {/* <Counter id='1' /> */}
           <CounterHooks id='2' />
           <DynamicCounterHooks id='3' />
+
+          <CommonCounter id='4' />
+          <CommonCounter dynamic={true} id='5' />
         </div>
       </div>
     </Provider>

@@ -35,11 +35,11 @@ const mapStateToProps = (state, ownProps) => {
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
     increment: ownProps.dynamic
-      ? value => dispatch(dynamicDecrement(5))
+      ? value => dispatch(dynamicIncrement(5))
       : () => dispatch(increment()),
 
     decrement: ownProps.dynamic
-      ? value => dispatch(dynamicIncrement(3))
+      ? value => dispatch(dynamicDecrement(3))
       : () => dispatch(decrement()),
   };
 };

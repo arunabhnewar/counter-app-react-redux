@@ -5,3 +5,5 @@
 - Redux Hook as useDispatch(), useSelector()
 - Redux combinedReducer
 - ownProps connected API
+- Redux Middleware - applyMiddleware using Currying function
+- Multiple Middlewares use

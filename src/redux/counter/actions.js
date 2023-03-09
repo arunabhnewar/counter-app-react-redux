@@ -1,18 +1,18 @@
 import { DECREMENT, INCREMENT } from "./actionType";
 
 // Increment Action Creators
-export const increment = (value) => {
+export const increment = () => {
     return {
         type: INCREMENT,
-        payload: value
+        // payload: value,
     }
 };
 
 
 // Decrement Action Creators
-export const decrement = (value) => {
+export const decrement = () => {
     return {
         type: DECREMENT,
-        payload: value
+        // payload: value,
     }
 };

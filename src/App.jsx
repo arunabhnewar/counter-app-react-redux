@@ -2,6 +2,7 @@ import { Provider } from "react-redux";
 import "./App.css";
 // import Counter from "./components/Counter";
 import CounterHooks from "./components/CounterHooks";
+import DynamicCounterHooks from "./components/DynamicCounterHooks";
 import store from "./redux/store";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
         <div className='max-w-md mx-auto mt-10 space-y-5'>
           {/* <Counter id='1' /> */}
           <CounterHooks id='2' />
+          <DynamicCounterHooks id='3' />
         </div>
       </div>
     </Provider>
